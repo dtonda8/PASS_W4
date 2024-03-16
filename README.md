@@ -7,6 +7,7 @@ python3 run_tests.py # and follow command line instructions
 # or 
 python run_tests.py # and follow command line instructions
 ```
+---
 
 ### Q1: Merge Sorted Lists
 You are given two sorted `List`s, `list1` and `list2`.
