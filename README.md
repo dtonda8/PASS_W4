@@ -8,10 +8,10 @@ python3 run_tests.py # and follow command line instructions
 python run_tests.py # and follow command line instructions
 ```
 
-#### Q1: Merge Sorted Lists
-You are given two sorted `ArrayLists`, `list1` and `list2`.
+### Q1: Merge Sorted Lists
+You are given two sorted `List`s, `list1` and `list2`.
 
-Merge the two lists into one sorted `ArrayList`. 
+Merge the two lists into one sorted `List`. 
 
 Return the head of the merged linked list.
 
@@ -22,8 +22,8 @@ Output: [1,1,2,3,4,4]
 
 Question to think about: How can we merge sorted queues?
 
-
-#### Q2: Time needed to Buy Tickets (adapted from [leetcode](https://leetcode.com/problems/time-needed-to-buy-tickets/description/))
+---
+### Q2: Time needed to Buy Tickets (adapted from [leetcode](https://leetcode.com/problems/time-needed-to-buy-tickets/description/))
 
 
 There are `n` people in a line queuing to buy tickets, where the 0th person is at the front of the line and the (`n` - 1)th person is at the back of the line.
