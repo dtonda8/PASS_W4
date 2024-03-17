@@ -22,7 +22,7 @@ def toList(al: ArrayList):
 class Test_Q1(unittest.TestCase):
     def assertResultEqual(self, expected: List, actual: List):
         if len(actual) < len(expected):
-            self.fail('Length of output is too short: {!r}, {!r}')
+            self.fail('Length of output is too short')
         
         for i in range(len(expected)):
             if actual[i] != expected[i]:

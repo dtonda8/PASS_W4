@@ -14,7 +14,7 @@ You are given two sorted `List`s, `list1` and `list2`.
 
 Merge the two lists into one sorted `List`. 
 
-Return the head of the merged linked list.
+Return the merged list.
 
 *Examples*
 
@@ -45,7 +45,6 @@ Output: 6
 
 Input: tickets = [2,3,2], k = 1
 Output: 7
-- In the first pass, everyone in the line buys a ticket and the line becomes [1, 2, 1].
 - first pass: [1, 2, 1] (t = 3)
 - second pass: [0, 1, 0] (t = 6)
 - second pass: [0, 0, 0] (t = 7)
